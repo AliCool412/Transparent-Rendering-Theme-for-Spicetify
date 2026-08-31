@@ -1,0 +1,12 @@
+{
+	"name": "Transparent Rendering",
+	"description": "Enables Utilization of Transparent Rendering on Windows",
+	"preview": "Preview.png",
+	"readme": "README.md",
+	"usercss": "user.css",
+	"schemes": "color.ini",
+	"authors": [
+		{ "name": "Ali Cool", "url": "https://github.com/AliCool412" },
+	],
+	"tags": ["transparent"]
+}

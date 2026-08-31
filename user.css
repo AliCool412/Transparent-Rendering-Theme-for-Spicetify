@@ -1,0 +1,75 @@
+:root {
+  --spice-card: rgba(255, 255, 255, 0.05) !important;
+  --spice-main-transition: none !important;
+  --spice-main: none !important;
+  --spice-sidebar: none !important;
+  --background-noise: rgba(0,0,0,0.7) !important;
+}
+.main-playButton-PlayButton button svg,
+.main-playButton-primary button svg {
+  fill: #000000!important;
+  color: #000000 !important;
+}
+.main-nowPlayingBar-container button[aria-label="Play"],
+.main-nowPlayingBar-container button[aria-label="Pause"],
+.main-nowPlayingBar-container .main-playPauseButton-button {
+  color: #000000 !important;
+  border: none !important;
+}
+.main-nowPlayingBar-container button[aria-label="Play"] svg,
+.main-nowPlayingBar-container button[aria-label="Pause"] svg,
+.main-nowPlayingBar-container .main-playPauseButton-button svg {
+  fill: #000000 !important; 
+  color: #000000 !important;
+}
+.main-contextMenu-menu,
+.main-contextMenu-menuItem,
+.main-dropDown-dropDownMenu,
+.tippy-box,
+.tippy-content,
+[role="menu"],
+[role="tooltip"],
+[data-tippy-root],
+#context-menu,
+.main-type-tooltip {
+  background-color: rgba(24, 24, 24, 0.95) !important;
+  background: rgba(24, 24, 24, 0.95) !important;
+}
+.main-topBar-background {
+  display: none !important;
+}
+.main-globalNav-historyButtonsSpacer {
+  display: none !important;
+}
+.main-trackList-trackListHeader {
+  position: static !important;
+  background: transparent !important;
+}
+.main-topBar-topbarContentRight:not(.link-subtle) {
+  width: 4px !important;
+}
+.QTPPCyC4V18wBUZA {
+  display: none !important;
+}
+.jiWxWueoicolJZnS {
+  height: 102% !important;
+  width: 102% !important;
+}
+.main-entityHeader-topbarContent {
+  display: none !important;
+}
+.main-actionBarBackground-background {
+  display: none !important;
+}
+.before-scroll-node div::after,
+[class*="bHqdRdxo4vtOizQq"]::after {
+    content: none !important;
+    display: none !important;
+    background: transparent !important;
+}
+.main-entityHeader-backgroundColor,
+.main-actionBarBackground-background,
+.main-home-homeHeader,
+.playlist-playlist-actionBarBackground-background {
+  display: none !important;
+}
