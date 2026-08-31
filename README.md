@@ -1,5 +1,7 @@
 # Transparent Rendering
 
+Author : [Ali Cool](https://github.com/AliCool412)
+
 ## About
 
 A theme that basically turns all background elements transparent (except menus and tooltips, of course), with a few UI fixes such as full-height artist banners (as those cannot be scoll-hidden when all backgrounds are transparent) and removal of top gradient.
@@ -8,7 +10,7 @@ Alternatively, MicaForEveryone can very much be usable in place of the "Transluc
 
 ### Required CEF/Spotify Tweaks
 
-![Windhawk](screenshots/Windhawk.png)
+![Windhawk](Windhawk.png)
 
 - **Enable native frames and title bars on the main window**
   to allow for correct backdrop implementation, keeping this disabled will result in the backdrop breaking with any resize/maximize/fullscreen operation.
@@ -21,14 +23,12 @@ Alternatively, MicaForEveryone can very much be usable in place of the "Transluc
 
 ### Home
 
-![Home](screenshots/Home.png)
+![Home](Home.png)
 
 ### Album
 
-![Album](screenshots/Album.png)
+![Album](Album.png)
 
 ### Artist Page
 
-![Artist](screenshots/Artist.png)
-
-Author : [Ali Cool](https://github.com/AliCool412)
+![Artist](Artist.png)
