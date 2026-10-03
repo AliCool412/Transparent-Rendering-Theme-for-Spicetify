@@ -78,3 +78,30 @@
 .main-globalNav-contentRightSpacer {
   width: 4px !important;
 }
+.SZZaGSgPlvbMy6EmCYPy,
+.IA4iGG9XYovF8ZeEsq8A,
+.main-topBar-container,
+.b2Yn_b_y4_oqj7M_5AP0,
+.skbiXj4RSA0QAr5xDn9P,
+.ZgbY_MBmIJxtXjdi0KYA{
+  display: none !important;
+}
+.zyugqDUpsiWa8v7oczU1{
+  position: static !important;
+  background: none !important;
+}
+.N8txqqpJDIs_ueBeNFtb{
+  height: 100% !important;
+  width: 100% !important;
+}
+.f5PeZZUBAlXJ_yUvOQ63{
+ height:104% !important;
+ width: 104% !important;
+ --background-base: rgba(0,0,0,0) !important;
+ --background-press: rgba(0,0,0,0) !important;
+ --background-elevated-base: rgba(0,0,0,0) !important;
+ --background-tinted-base: rgba(0,0,0,0) !important;
+}
+.e13C6QTs_jSfsrn_Vkkq{
+  width: 4px!important;
+}
