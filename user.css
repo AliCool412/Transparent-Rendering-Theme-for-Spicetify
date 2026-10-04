@@ -115,7 +115,14 @@
   --background-elevated-base: rgba(0,0,0,0) !important;
   --background-elevated-highlight: rgba(0,0,0,0) !important;
   --background-elevated-press: rgba(0,0,0,0) !important;
+  --background-base: rgba(0,0,0,0) !important;
 }
 .e-10860-legacy-button-primary{
  --encore-graphic-size-decorative-base: 48px !important;
+}
+.main-nowPlayingBar-container button[aria-label="Play"] svg,
+.main-nowPlayingBar-container button[aria-label="Pause"] svg,
+.main-nowPlayingBar-container .main-playPauseButton-button svg {
+  fill: #ffffff !important;
+  color: #ffffff !important;
 }
