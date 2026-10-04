@@ -1,9 +1,12 @@
 :root {
   --spice-card: rgba(255, 255, 255, 0.05) !important;
   --spice-main-transition: none !important;
-  --spice-main: none !important;
   --spice-sidebar: none !important;
+  --spice-main: none !important;
   --background-noise: rgba(0,0,0,0.7) !important;
+  --background-press: #FFFFFF !important;
+  --spice-button-active: #FFFFFF !important;
+  --spice-button: #FFFFFF !important;
 }
 .main-playButton-PlayButton button svg,
 .main-playButton-primary button svg {
@@ -104,4 +107,15 @@
 }
 .e13C6QTs_jSfsrn_Vkkq{
   width: 4px!important;
+}
+.e-10860-overflow-wrap-anywhere{
+  --background-highlight: rgba(0,0,0,0) !important;
+  --background-press: rgba(0,0,0,0) !important;
+  --spice-button-active: rgba(0,0,0,0) !important;
+  --background-elevated-base: rgba(0,0,0,0) !important;
+  --background-elevated-highlight: rgba(0,0,0,0) !important;
+  --background-elevated-press: rgba(0,0,0,0) !important;
+}
+.e-10860-legacy-button-primary{
+ --encore-graphic-size-decorative-base: 48px !important;
 }
