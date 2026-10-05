@@ -7,6 +7,7 @@
   --background-press: #FFFFFF !important;
   --spice-button-active: #FFFFFF !important;
   --spice-button: #FFFFFF !important;
+  --encore-overlay-box-shadow: 0 0px 0px !important;
 }
 .main-playButton-PlayButton button svg,
 .main-playButton-primary button svg {
@@ -81,15 +82,6 @@
 .main-globalNav-contentRightSpacer {
   width: 4px !important;
 }
-.SZZaGSgPlvbMy6EmCYPy,
-.IA4iGG9XYovF8ZeEsq8A,
-.main-topBar-container,
-.b2Yn_b_y4_oqj7M_5AP0,
-.skbiXj4RSA0QAr5xDn9P,
-.ZgbY_MBmIJxtXjdi0KYA,
-.kmo_ZUsxXMkrPrJGwR5V{
-  display: none !important;
-}
 .zyugqDUpsiWa8v7oczU1{
   position: static !important;
   background: none !important;
@@ -126,4 +118,26 @@
 .main-nowPlayingBar-container .main-playPauseButton-button svg {
   fill: #ffffff !important;
   color: #ffffff !important;
+}
+.SZZaGSgPlvbMy6EmCYPy,
+.IA4iGG9XYovF8ZeEsq8A,
+.b2Yn_b_y4_oqj7M_5AP0,
+.skbiXj4RSA0QAr5xDn9P,
+.ZgbY_MBmIJxtXjdi0KYA,
+.kmo_ZUsxXMkrPrJGwR5V{
+  display: none !important;
+}
+.NG0KBybUCTo8_SxXHF3N{
+  --background-base: #242424 !important;
+  border-radius: 12px !important;
+}
+.main-tobBar-container{
+  position: relative !important;
+}
+.aFTT7HhSi7nKw___DYTw{
+  display: none !important;
+}
+.XigLZTcvt6fiLkosJfYh,
+.miQxkQPT6ObnldFON6FU{
+  box-shadow: 0 0px 0px !important;
 }
