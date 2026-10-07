@@ -4,11 +4,11 @@
   --spice-sidebar: none !important;
   --spice-main: none !important;
   --background-noise: #00000099 !important;
-  --background-press: #FFFFFF !important;
   --spice-button-active: #FFFFFF !important;
   --spice-button: #FFFFFF !important;
   --encore-overlay-box-shadow: 0 0px 0px !important;
   --encore-icon-fill: #FFFFFF !important;
+  --text-bright-accent: #FFFFFF !important;
 }
 
 /* This above is the baseline for making everything transparent, I'm gonna write notes in this CSS snippet because Spotify keeps using obfuscated css names and I'm highkey getting sick of this shit so I'm putting this in here to make sure to remind myself which elements I changed in case the class names change for the millionth fucking time */
@@ -142,10 +142,11 @@
 
 /* And this is also for the playlist sorting options, they have a weird border which, I don't even know why it was added in the first place. */
 
-.YQ0uPtmHEvHsS8MszwpG{
+.YQ0uPtmHEvHsS8MszwpG,
+.e-10860-button__icon-wrapper{
   filter: saturate(0%) !important;
 }
-/* This one's to make the playing GIF become monochromatic, to blend in with the light grey/white accent color */
+/* This one's to make the playing GIF become monochromatic, to blend in with the light grey/white accent color, and also the "added to playlist" GIF. */
 
 .marketplace-header{
   position: relative !important;
@@ -169,4 +170,17 @@
   --spice-highlight-elevated: transparent !important;
   background: transparent !important;
 }
+
 /* This one's for the updated create button (with the playlist/folder/jam/mixed playlist/blend options). */
+
+.g6z9DmqJ8tbdUBNlRC4e{
+  --text-bright-accent: #FFFFFF !important;
+}
+
+/* This one's for the "Change" link inside of the popups that say "added to [playlist name]" */
+
+[role="alert"] .e-10860-legacy-box{
+  background: #242424 !important;
+}
+
+/*  And this one's for the background of the aforementioned popups */
