@@ -8,6 +8,7 @@
   --spice-button-active: #FFFFFF !important;
   --spice-button: #FFFFFF !important;
   --encore-overlay-box-shadow: 0 0px 0px !important;
+  --encore-icon-fill: #FFFFFF !important;
 }
 .main-contextMenu-menu,
 .main-contextMenu-menuItem,
@@ -15,12 +16,11 @@
 .tippy-box,
 .tippy-content,
 [role="menu"],
-[role="tooltip"],
 [data-tippy-root],
 #context-menu,
 .main-type-tooltip{
-  background-color: rgba(24, 24, 24, 0.95) !important;
-  background: rgba(24, 24, 24, 0.95) !important;
+  background: #242424 !important;
+  border-radius: 8px !important;
 }
 .main-trackList-trackListHeader{
   position: static !important;
@@ -56,9 +56,6 @@
   --background-elevated-press: rgba(0,0,0,0) !important;
   --background-base: rgba(0,0,0,0) !important;
 }
-.e-10860-legacy-button-primary{
- --encore-graphic-size-decorative-base: 48px !important;
-}
 .main-nowPlayingBar-container button[aria-label="Play"] svg,
 .main-nowPlayingBar-container button[aria-label="Pause"] svg,
 .main-nowPlayingBar-container .main-playPauseButton-button svg{
@@ -84,7 +81,8 @@
 .main-entityHeader-topbarContent,
 .kMUtWcOMOZmCWTMAc_gu ELsCw_Koqs_Q2dLHtg7z,
 .main-topBar-background,
-.main-globalNav-historyButtonsSpacer{
+.main-globalNav-historyButtonsSpacer,
+.kflHPd1wGLg8GjJjmpc6{
   display: none !important;
 }
 .NG0KBybUCTo8_SxXHF3N{
@@ -92,7 +90,8 @@
   border-radius: 12px !important;
 }
 .XigLZTcvt6fiLkosJfYh,
-.miQxkQPT6ObnldFON6FU{
+.miQxkQPT6ObnldFON6FU,
+.e-10860-overflow-wrap-anywhere{
   box-shadow: 0 0px 0px !important;
 }
 .d7rHODV83neFiPSeUqDB:after{
@@ -110,4 +109,13 @@
 }
 .YQ0uPtmHEvHsS8MszwpG{
   filter: saturate(0%) !important;
+}
+.marketplace-header{
+  position: relative !important;
+}
+.e-10860-legacy-button-primary{
+ --encore-graphic-size-decorative-base: 48px !important;
+}
+#context-menu svg{
+  overflow: visible !important;
 }
