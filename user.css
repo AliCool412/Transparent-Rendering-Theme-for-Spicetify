@@ -10,6 +10,9 @@
   --encore-overlay-box-shadow: 0 0px 0px !important;
   --encore-icon-fill: #FFFFFF !important;
 }
+
+/* This above is the baseline for making everything transparent, I'm gonna write notes in this CSS snippet because Spotify keeps using obfuscated css names and I'm highkey getting sick of this shit so I'm putting this in here to make sure to remind myself which elements I changed in case the class names change for the millionth fucking time */
+
 .main-contextMenu-menu,
 .main-contextMenu-menuItem,
 .main-dropDown-dropDownMenu,
@@ -22,18 +25,25 @@
   background: var(--background-elevated-base) !important;
   border-radius: 8px !important;
 }
-.main-trackList-trackListHeader{
+
+/* And this above is to make sure only the menus and tooltips are spared from transparency, of course there are still some other stuff spared from transparency which I won't bother to list here but you're gonna see for yourself with usage of this theme. */
+
+.main-trackList-trackListHeader,
+.zyugqDUpsiWa8v7oczU1{
   position: static !important;
   background: transparent !important;
 }
+
+/* This one's for the list sorting options, I can't have them stick to the main topbar when scrolling down since it ruins the look of the theme, the spicetify marketplace sorter gets a similar treatment */
+
 .main-topBar-topbarContentRight:not(.link-subtle),
-.main-globalNav-contentRightSpacer{
+.main-globalNav-contentRightSpacer,
+.e13C6QTs_jSfsrn_Vkkq{
   width: 4px !important;
 }
-.zyugqDUpsiWa8v7oczU1{
-  position: static !important;
-  background: none !important;
-}
+
+/* And this is the space on the right side of top navbar being minimized to compensate the lack of spotify's titlebar, which is necessary for the sake of this theme working properly (CHECK README). */
+
 .N8txqqpJDIs_ueBeNFtb,
 .f5PeZZUBAlXJ_yUvOQ63,
 .rzJHb_Q4kE2_d81P1hHQ{
@@ -44,9 +54,9 @@
  --background-elevated-base: transparent !important;
  --background-tinted-base: transparent !important;
 }
-.e13C6QTs_jSfsrn_Vkkq{
-  width: 4px!important;
-}
+
+/* This is for artists' pages banners being used as the full page's background, as there is no way to implement a dynamically changing backdrop with the banner picture of artists other than to make the entire background be the artist's banner, if you have a better implementation, please enlighten me, or do it yourself, this isn't sarcastic or demeaning btw I'm being so fr here. */
+
 .e-10860-overflow-wrap-anywhere{
   --background-highlight: transparent !important;
   --background-press: transparent !important;
@@ -56,11 +66,17 @@
   --background-elevated-press: transparent !important;
   --background-base: transparent !important;
 }
+
+/* And this here is to remove the playback bar play button's circle. */
+
 .main-nowPlayingBar-container button[aria-label="Play"] svg,
 .main-nowPlayingBar-container button[aria-label="Pause"] svg,
 .main-nowPlayingBar-container .main-playPauseButton-button svg{
   fill: var(--encore-icon-fill,currentColor) !important;
 }
+
+/* And this here is to correct the color of the aforementioned play button. */
+
 .SZZaGSgPlvbMy6EmCYPy,
 .IA4iGG9XYovF8ZeEsq8A,
 .b2Yn_b_y4_oqj7M_5AP0,
@@ -84,42 +100,72 @@
 .kflHPd1wGLg8GjJjmpc6{
   display: none !important;
 }
+
+/* And this here is a whole list of playlist/homepage/album top gradients to be hidden as it interferes with the theme BADLY, this list probably has a few more elements that got removed in newer releases but I'm not removing for the sake of the theme looking proper on older releases. */
+
 .NG0KBybUCTo8_SxXHF3N{
   --background-base: var(--background-elevated-base) !important;
   border-radius: 12px !important;
 }
+
+/* This one's for the page title which we'll call Main TopBar for lack of a better name (when you scroll down the visible list and it has a play button on the left of the name and such except the name isn't as enlarged in this little rectangle). */
+
 .XigLZTcvt6fiLkosJfYh,
 .miQxkQPT6ObnldFON6FU,
 .e-10860-overflow-wrap-anywhere,
 .zyugqDUpsiWa8v7oczU1{
   box-shadow: 0 0px 0px !important;
 }
+
+/* This is to remove the drop shadow from images, whether it's the playlists, albums or even the left sidebar. */
+
 .d7rHODV83neFiPSeUqDB:after{
   background-image: none !important;
 }
+
+/* This one's also for artist pages if I'm not wrong. */
+
 .main-topBar-container{
   margin-left: 0.5% !important;
   width: 99% !important;
   margin-top: 0.5% !important;
 }
+
+/* This one's for the aforementioned "Main TopBar". */
+
 .zyugqDUpsiWa8v7oczU1,
 .CpEaNOB66nFcZNUZA2wg{
   border-top: none !important;
   border-bottom: none !important;
 }
+
+/* And this is also for the playlist sorting options, they have a weird border which, I don't even know why it was added in the first place. */
+
 .YQ0uPtmHEvHsS8MszwpG{
   filter: saturate(0%) !important;
 }
+/* This one's to make the playing GIF become monochromatic, to blend in with the light grey/white accent color */
+
 .marketplace-header{
   position: relative !important;
 }
+
+/* As I mentioned earlier, the marketplace header is getting a similar treatment */
+
 .e-10860-legacy-button-primary{
  --encore-graphic-size-decorative-base: 48px !important;
 }
+
+/* This one's for the now VERY LARGE playlist play button triangle. */
+
 #context-menu svg{
   overflow: visible !important;
 }
+
+/* This here is a fix for icons inside menus looking a bit off in scaling under 100%. */
+
 .uCpbyRyKRYhEnUmXhDjT{
   --spice-highlight-elevated: transparent !important;
   background: transparent !important;
 }
+/* This one's for the updated create button (with the playlist/folder/jam/mixed playlist/blend options). */
