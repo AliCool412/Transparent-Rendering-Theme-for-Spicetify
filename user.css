@@ -1,4 +1,4 @@
-:root {
+:root{
   --spice-card: rgba(255, 255, 255, 0.05) !important;
   --spice-main-transition: none !important;
   --spice-sidebar: none !important;
@@ -9,23 +9,6 @@
   --spice-button: #FFFFFF !important;
   --encore-overlay-box-shadow: 0 0px 0px !important;
 }
-.main-playButton-PlayButton button svg,
-.main-playButton-primary button svg {
-  fill: #000000!important;
-  color: #000000 !important;
-}
-.main-nowPlayingBar-container button[aria-label="Play"],
-.main-nowPlayingBar-container button[aria-label="Pause"],
-.main-nowPlayingBar-container .main-playPauseButton-button {
-  color: #000000 !important;
-  border: none !important;
-}
-.main-nowPlayingBar-container button[aria-label="Play"] svg,
-.main-nowPlayingBar-container button[aria-label="Pause"] svg,
-.main-nowPlayingBar-container .main-playPauseButton-button svg {
-  fill: #000000 !important; 
-  color: #000000 !important;
-}
 .main-contextMenu-menu,
 .main-contextMenu-menuItem,
 .main-dropDown-dropDownMenu,
@@ -35,62 +18,25 @@
 [role="tooltip"],
 [data-tippy-root],
 #context-menu,
-.main-type-tooltip {
+.main-type-tooltip{
   background-color: rgba(24, 24, 24, 0.95) !important;
   background: rgba(24, 24, 24, 0.95) !important;
 }
-.main-topBar-background {
-  display: none !important;
-}
-.main-globalNav-historyButtonsSpacer {
-  display: none !important;
-}
-.main-trackList-trackListHeader {
+.main-trackList-trackListHeader{
   position: static !important;
   background: transparent !important;
 }
-.main-topBar-topbarContentRight:not(.link-subtle) {
-  width: 4px !important;
-}
-.kMUtWcOMOZmCWTMAc_gu ELsCw_Koqs_Q2dLHtg7z {
-  display: none !important;
-}
-.main-entityHeader-topbarContent {
-  display: none !important;
-}
-.main-actionBarBackground-background {
-  display: none !important;
-}
-.rzJHb_Q4kE2_d81P1hHQ {
-  height:102% !important;
-}
-.main-entityHeader-backgroundColor,
-.main-actionBarBackground-background,
-.main-home-homeHeader,
-.playlist-playlist-actionBarBackground-background {
-  display: none !important;
-}
-.M7ECcaA17LC8UqL2GKVD {
-  display: none !important;
-}
-.kMUtWcOMOZmCWTMAc_gu {
-  display: none !important;
-}
-.dqwQhIudKoD98eWJzj5E {
-  display: none !important;
-}
-.main-globalNav-contentRightSpacer {
+.main-topBar-topbarContentRight:not(.link-subtle),
+.main-globalNav-contentRightSpacer{
   width: 4px !important;
 }
 .zyugqDUpsiWa8v7oczU1{
   position: static !important;
   background: none !important;
 }
-.N8txqqpJDIs_ueBeNFtb{
-  height: 100% !important;
-  width: 100% !important;
-}
-.f5PeZZUBAlXJ_yUvOQ63{
+.N8txqqpJDIs_ueBeNFtb,
+.f5PeZZUBAlXJ_yUvOQ63,
+.rzJHb_Q4kE2_d81P1hHQ{
  height:104% !important;
  width: 104% !important;
  --background-base: rgba(0,0,0,0) !important;
@@ -115,29 +61,53 @@
 }
 .main-nowPlayingBar-container button[aria-label="Play"] svg,
 .main-nowPlayingBar-container button[aria-label="Pause"] svg,
-.main-nowPlayingBar-container .main-playPauseButton-button svg {
-  fill: #ffffff !important;
-  color: #ffffff !important;
+.main-nowPlayingBar-container .main-playPauseButton-button svg{
+  fill: #B3B3B3 !important;
+  color: #B3B3B3 !important;
 }
 .SZZaGSgPlvbMy6EmCYPy,
 .IA4iGG9XYovF8ZeEsq8A,
 .b2Yn_b_y4_oqj7M_5AP0,
 .skbiXj4RSA0QAr5xDn9P,
 .ZgbY_MBmIJxtXjdi0KYA,
-.kmo_ZUsxXMkrPrJGwR5V{
+.kmo_ZUsxXMkrPrJGwR5V,
+.main-entityHeader-backgroundColor,
+.main-actionBarBackground-background,
+.main-home-homeHeader,
+.playlist-playlist-actionBarBackground-background,
+.aFTT7HhSi7nKw___DYTw,
+.e1NRR9_lRgRwafa1esSw,
+.dqwQhIudKoD98eWJzj5E,
+.kMUtWcOMOZmCWTMAc_gu,
+.M7ECcaA17LC8UqL2GKVD,
+.main-actionBarBackground-background,
+.main-entityHeader-topbarContent,
+.kMUtWcOMOZmCWTMAc_gu ELsCw_Koqs_Q2dLHtg7z,
+.main-topBar-background,
+.main-globalNav-historyButtonsSpacer{
   display: none !important;
 }
 .NG0KBybUCTo8_SxXHF3N{
   --background-base: #242424 !important;
   border-radius: 12px !important;
 }
-.main-tobBar-container{
-  position: relative !important;
-}
-.aFTT7HhSi7nKw___DYTw{
-  display: none !important;
-}
 .XigLZTcvt6fiLkosJfYh,
 .miQxkQPT6ObnldFON6FU{
   box-shadow: 0 0px 0px !important;
+}
+.d7rHODV83neFiPSeUqDB:after{
+  background-image: none !important;
+}
+.main-topBar-container{
+  margin-left: 4% !important;
+  width: 92% !important;
+  margin-top: 4px !important;
+}
+.zyugqDUpsiWa8v7oczU1,
+.CpEaNOB66nFcZNUZA2wg{
+  border-top: none !important;
+  border-bottom: none !important;
+}
+.YQ0uPtmHEvHsS8MszwpG{
+  filter: saturate(0%) !important;
 }
