@@ -9,6 +9,7 @@
   --encore-overlay-box-shadow: 0 0px 0px !important;
   --encore-icon-fill: #FFFFFF !important;
   --text-bright-accent: #FFFFFF !important;
+  --carousel-start-chevron-gradient: none !important;
 }
 
 /* This above is the baseline for making everything transparent, I'm gonna write notes in this CSS snippet because Spotify keeps using obfuscated css names and I'm highkey getting sick of this shit so I'm putting this in here to make sure to remind myself which elements I changed in case the class names change for the millionth fucking time, all notations I've added are referring to the elements mentioned above them, not below.*/
@@ -104,7 +105,8 @@
 
 /* And this here is a whole list of playlist/homepage/album top gradients to be hidden as it interferes with the theme BADLY, this list probably has a few more elements that got removed in newer releases but I'm not removing for the sake of the theme looking proper on older releases. */
 
-.NG0KBybUCTo8_SxXHF3N{
+.NG0KBybUCTo8_SxXHF3N,
+.iLPntCcS2p5RQ6lINAgx{
   --background-base: var(--background-elevated-base) !important;
   border-radius: 12px !important;
 }
@@ -115,7 +117,12 @@
 .miQxkQPT6ObnldFON6FU,
 .e-10860-overflow-wrap-anywhere,
 .zyugqDUpsiWa8v7oczU1,
-.At_PezR11Vm2qa_1CMwg{
+.At_PezR11Vm2qa_1CMwg,
+.dsRqpLP2eKuUJEmFhkMt,
+.kIdwlYLsDCgBSpsfutG6,
+.main-card-PlayButtonContainer,
+.mfc6xIi99Ld5z_EtlkLR,
+.main-cardImage-imageWrapper{
   box-shadow: 0 0px 0px !important;
 }
 
@@ -127,7 +134,8 @@
 
 /* This one's also for artist pages if I'm not wrong. */
 
-.main-topBar-container{
+.main-topBar-container,
+.ap_ioWdVFWJkrRicJB8C{
   margin-left: 0.5% !important;
   width: 99% !important;
   margin-top: 0.5% !important;
@@ -144,6 +152,7 @@
 /* And this is also for the playlist sorting options, they have a weird border which, I don't even know why it was added in the first place. */
 
 .YQ0uPtmHEvHsS8MszwpG,
+.Paf_Idn_uHcJizNgwOAs,
 .e-10860-button__icon-wrapper{
   filter: saturate(0%) !important;
 }
@@ -185,3 +194,18 @@
 }
 
 /*  And this one's for the background of the aforementioned popups */
+
+.BTXPtQEzifZvDSNbfM4U:before,
+.BTXPtQEzifZvDSNbfM4U:after,
+.iLPntCcS2p5RQ6lINAgx:after{
+  background: transparent !important;
+}
+
+/* This one's for removing drop shadows from sideways scroll elements */
+
+.ap_ioWdVFWJkrRicJB8C,
+.iLPntCcS2p5RQ6lINAgx{
+  position: static !important;
+}
+
+/* This one's for fixing the position of the TopBar of the homepage */
