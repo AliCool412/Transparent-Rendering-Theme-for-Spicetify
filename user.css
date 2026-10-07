@@ -1,9 +1,9 @@
 :root{
-  --spice-card: rgba(255, 255, 255, 0.05) !important;
+  --spice-card: transparent !important;
   --spice-main-transition: none !important;
   --spice-sidebar: none !important;
   --spice-main: none !important;
-  --background-noise: rgba(0,0,0,0.7) !important;
+  --background-noise: transparent !important;
   --background-press: #FFFFFF !important;
   --spice-button-active: #FFFFFF !important;
   --spice-button: #FFFFFF !important;
@@ -19,7 +19,7 @@
 [data-tippy-root],
 #context-menu,
 .main-type-tooltip{
-  background: #242424 !important;
+  background: var(--background-elevated-base) !important;
   border-radius: 8px !important;
 }
 .main-trackList-trackListHeader{
@@ -39,28 +39,27 @@
 .rzJHb_Q4kE2_d81P1hHQ{
  height:104% !important;
  width: 104% !important;
- --background-base: rgba(0,0,0,0) !important;
- --background-press: rgba(0,0,0,0) !important;
- --background-elevated-base: rgba(0,0,0,0) !important;
- --background-tinted-base: rgba(0,0,0,0) !important;
+ --background-base: transparent !important;
+ --background-press: transparent !important;
+ --background-elevated-base: transparent !important;
+ --background-tinted-base: transparent !important;
 }
 .e13C6QTs_jSfsrn_Vkkq{
   width: 4px!important;
 }
 .e-10860-overflow-wrap-anywhere{
-  --background-highlight: rgba(0,0,0,0) !important;
-  --background-press: rgba(0,0,0,0) !important;
-  --spice-button-active: rgba(0,0,0,0) !important;
-  --background-elevated-base: rgba(0,0,0,0) !important;
-  --background-elevated-highlight: rgba(0,0,0,0) !important;
-  --background-elevated-press: rgba(0,0,0,0) !important;
-  --background-base: rgba(0,0,0,0) !important;
+  --background-highlight: transparent !important;
+  --background-press: transparent !important;
+  --spice-button-active: transparent !important;
+  --background-elevated-base: transparent !important;
+  --background-elevated-highlight: transparent !important;
+  --background-elevated-press: transparent !important;
+  --background-base: transparent !important;
 }
 .main-nowPlayingBar-container button[aria-label="Play"] svg,
 .main-nowPlayingBar-container button[aria-label="Pause"] svg,
 .main-nowPlayingBar-container .main-playPauseButton-button svg{
-  fill: #B3B3B3 !important;
-  color: #B3B3B3 !important;
+  fill: var(--encore-icon-fill,currentColor) !important;
 }
 .SZZaGSgPlvbMy6EmCYPy,
 .IA4iGG9XYovF8ZeEsq8A,
@@ -86,21 +85,22 @@
   display: none !important;
 }
 .NG0KBybUCTo8_SxXHF3N{
-  --background-base: #242424 !important;
+  --background-base: var(--background-elevated-base) !important;
   border-radius: 12px !important;
 }
 .XigLZTcvt6fiLkosJfYh,
 .miQxkQPT6ObnldFON6FU,
-.e-10860-overflow-wrap-anywhere{
+.e-10860-overflow-wrap-anywhere,
+.zyugqDUpsiWa8v7oczU1{
   box-shadow: 0 0px 0px !important;
 }
 .d7rHODV83neFiPSeUqDB:after{
   background-image: none !important;
 }
 .main-topBar-container{
-  margin-left: 4% !important;
-  width: 92% !important;
-  margin-top: 4px !important;
+  margin-left: 6% !important;
+  width: 88% !important;
+  margin-top: 2px !important;
 }
 .zyugqDUpsiWa8v7oczU1,
 .CpEaNOB66nFcZNUZA2wg{
@@ -118,4 +118,8 @@
 }
 #context-menu svg{
   overflow: visible !important;
+}
+.uCpbyRyKRYhEnUmXhDjT{
+  --spice-highlight-elevated: transparent !important;
+  background: transparent !important;
 }
