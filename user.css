@@ -11,7 +11,7 @@
   --text-bright-accent: #FFFFFF !important;
 }
 
-/* This above is the baseline for making everything transparent, I'm gonna write notes in this CSS snippet because Spotify keeps using obfuscated css names and I'm highkey getting sick of this shit so I'm putting this in here to make sure to remind myself which elements I changed in case the class names change for the millionth fucking time */
+/* This above is the baseline for making everything transparent, I'm gonna write notes in this CSS snippet because Spotify keeps using obfuscated css names and I'm highkey getting sick of this shit so I'm putting this in here to make sure to remind myself which elements I changed in case the class names change for the millionth fucking time, all notations I've added are referring to the elements mentioned above them, not below.*/
 
 .main-contextMenu-menu,
 .main-contextMenu-menuItem,
@@ -23,10 +23,10 @@
 #context-menu,
 .main-type-tooltip{
   background: var(--background-elevated-base) !important;
-  border-radius: 8px !important;
+  border-radius: 6px !important;
 }
 
-/* And this above is to make sure only the menus and tooltips are spared from transparency, of course there are still some other stuff spared from transparency which I won't bother to list here but you're gonna see for yourself with usage of this theme. */
+/* And this is to make sure only the menus and tooltips are spared from transparency, of course there are still some other stuff spared from transparency which I won't bother to list here but you're gonna see for yourself with usage of this theme. */
 
 .main-trackList-trackListHeader,
 .zyugqDUpsiWa8v7oczU1{
@@ -97,7 +97,8 @@
 .kMUtWcOMOZmCWTMAc_gu ELsCw_Koqs_Q2dLHtg7z,
 .main-topBar-background,
 .main-globalNav-historyButtonsSpacer,
-.kflHPd1wGLg8GjJjmpc6{
+.kflHPd1wGLg8GjJjmpc6,
+.b0kbWFp7K9_JqU7W7FqI{
   display: none !important;
 }
 
@@ -180,7 +181,7 @@
 /* This one's for the "Change" link inside of the popups that say "added to [playlist name]" */
 
 [role="alert"] .e-10860-legacy-box{
-  background: #242424 !important;
+  --background: #242424 !important;
 }
 
 /*  And this one's for the background of the aforementioned popups */
