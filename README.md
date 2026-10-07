@@ -32,3 +32,7 @@ Alternatively, MicaForEveryone can be used in place of the "Translucent Windows"
 ### Artist Page
 
 ![Artist](Artist.png)
+
+### The Theme without Windhawk
+
+![NoWindhawk](NoWindhawk.png)
