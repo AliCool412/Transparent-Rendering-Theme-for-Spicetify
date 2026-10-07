@@ -21,9 +21,9 @@ Alternatively, MicaForEveryone can very much be usable in place of the "Transluc
 
 ## Screenshots
 
-### Home
+### Playlist Overscroll
 
-![Home](Home.png)
+![PlaylistOverscroll](PlaylistOverscroll.png)
 
 ### Album
 
