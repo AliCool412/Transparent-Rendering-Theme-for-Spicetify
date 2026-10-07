@@ -4,9 +4,9 @@ Author : [Ali Cool](https://github.com/AliCool412)
 
 ## About
 
-A theme that basically turns all background elements transparent (except menus and tooltips, of course), with a few UI fixes such as full-height artist banners (as those cannot be scoll-hidden when all backgrounds are transparent) and removal of top gradient.
+A theme that basically turns all background elements transparent (except menus and tooltips, of course) to allow for dark mode backdrop implementation, with a few UI fixes such as full-height artist bannersand removal of top gradient.
 Best used on with the "CEF/Spotify Tweaks" Windhawk mod to allow the transparent rendering, and "Translucent Windows" Windhawk mod to force the spotify window to use Backdrop Materials of your choice.
-Alternatively, MicaForEveryone can very much be usable in place of the "Translucent Windows" Windhawk mod in this instance.
+Alternatively, MicaForEveryone can be used in place of the "Translucent Windows" Windhawk mod.
 
 ### Required CEF/Spotify Tweaks
 
