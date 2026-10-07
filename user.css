@@ -181,7 +181,7 @@
 /* This one's for the "Change" link inside of the popups that say "added to [playlist name]" */
 
 [role="alert"] .e-10860-legacy-box{
-  --background: #242424 !important;
+  background: #242424 !important;
 }
 
 /*  And this one's for the background of the aforementioned popups */
