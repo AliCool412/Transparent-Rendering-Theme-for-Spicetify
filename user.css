@@ -30,7 +30,8 @@
 /* And this is to make sure only the menus and tooltips are spared from transparency, of course there are still some other stuff spared from transparency which I won't bother to list here but you're gonna see for yourself with usage of this theme. */
 
 .main-trackList-trackListHeader,
-.zyugqDUpsiWa8v7oczU1{
+.zyugqDUpsiWa8v7oczU1,
+.rl0QlbVbrvgO0fB5Pkua{
   position: static !important;
   background: transparent !important;
 }
@@ -47,7 +48,8 @@
 
 .N8txqqpJDIs_ueBeNFtb,
 .f5PeZZUBAlXJ_yUvOQ63,
-.rzJHb_Q4kE2_d81P1hHQ{
+.rzJHb_Q4kE2_d81P1hHQ,
+.Zsz_4IzlyaFvu7jBCd06{
  height:104% !important;
  width: 104% !important;
  --background-base: transparent !important;
@@ -99,14 +101,22 @@
 .main-topBar-background,
 .main-globalNav-historyButtonsSpacer,
 .kflHPd1wGLg8GjJjmpc6,
-.b0kbWFp7K9_JqU7W7FqI{
+.b0kbWFp7K9_JqU7W7FqI,
+.sxMpFt17cJVTesE9u6fX,
+.QqprhKqwqIsC3c9SIKOE,
+.gT_q40FQepT8dFfwRcAz,
+.oCEpJz9qQElJmB4tFybO,
+._ddPhxHdxmpT13IbjTmr,
+.FYt64RVcdU2DfYVJOH4W,
+.V7ICuEr1ZBtemPGKXeZb{
   display: none !important;
 }
 
 /* And this here is a whole list of playlist/homepage/album top gradients to be hidden as it interferes with the theme BADLY, this list probably has a few more elements that got removed in newer releases but I'm not removing for the sake of the theme looking proper on older releases. */
 
 .NG0KBybUCTo8_SxXHF3N,
-.iLPntCcS2p5RQ6lINAgx{
+.iLPntCcS2p5RQ6lINAgx,
+.Ac2raqVCOQ_HYbbCkBAP{
   --background-base: var(--background-elevated-base) !important;
   border-radius: 12px !important;
 }
@@ -122,20 +132,26 @@
 .kIdwlYLsDCgBSpsfutG6,
 .main-card-PlayButtonContainer,
 .mfc6xIi99Ld5z_EtlkLR,
-.main-cardImage-imageWrapper{
+.main-cardImage-imageWrapper,
+.mdY9Xw839F5sY1aa68Fi,
+.FabGls9zqg_MQCuzhXlB,
+.NeTYdM9FpYcvpF47Z8Y4,
+.rl0QlbVbrvgO0fB5Pkua{
   box-shadow: 0 0px 0px !important;
 }
 
 /* This is to remove the drop shadow from images, whether it's the playlists, albums or even the left sidebar. */
 
-.d7rHODV83neFiPSeUqDB:after{
+.d7rHODV83neFiPSeUqDB:after,
+.TmjKsp7ZdmzlG9vtR_94:after{
   background-image: none !important;
 }
 
 /* This one's also for artist pages if I'm not wrong. */
 
 .main-topBar-container,
-.ap_ioWdVFWJkrRicJB8C{
+.ap_ioWdVFWJkrRicJB8C,
+[data-testid="topbar"]{
   margin-left: 0.5% !important;
   width: 99% !important;
   margin-top: 0.5% !important;
@@ -144,7 +160,8 @@
 /* This one's for the aforementioned "Main TopBar". */
 
 .zyugqDUpsiWa8v7oczU1,
-.CpEaNOB66nFcZNUZA2wg{
+.CpEaNOB66nFcZNUZA2wg,
+.rl0QlbVbrvgO0fB5Pkua{
   border-top: none !important;
   border-bottom: none !important;
 }
@@ -153,7 +170,9 @@
 
 .YQ0uPtmHEvHsS8MszwpG,
 .Paf_Idn_uHcJizNgwOAs,
-.e-10860-button__icon-wrapper{
+.e-10860-button__icon-wrapper,
+.T0rMpAnelW_8YG9TEYXX,
+.VKQ4sdB5MUwV2yKJRQCY{
   filter: saturate(0%) !important;
 }
 /* This one's to make the playing GIF become monochromatic, to blend in with the light grey/white accent color, and also the "added to playlist" GIF. */
@@ -183,7 +202,8 @@
 
 /* This one's for the updated create button (with the playlist/folder/jam/mixed playlist/blend options). */
 
-.g6z9DmqJ8tbdUBNlRC4e{
+.g6z9DmqJ8tbdUBNlRC4e,
+.e-10860-legacy-button{
   --text-bright-accent: #FFFFFF !important;
 }
 
@@ -197,14 +217,19 @@
 
 .BTXPtQEzifZvDSNbfM4U:before,
 .BTXPtQEzifZvDSNbfM4U:after,
-.iLPntCcS2p5RQ6lINAgx:after{
+.iLPntCcS2p5RQ6lINAgx:after,
+.x4nQPvl5jCXXKJ2sJ9Hk:before,
+.x4nQPvl5jCXXKJ2sJ9Hk:after,
+.YOYIfKkABUDGQ5vQmg7y:after,
+.oCSWtOAH_CgjIsi_H_PS{
   background: transparent !important;
 }
 
 /* This one's for removing drop shadows from sideways scroll elements */
 
 .ap_ioWdVFWJkrRicJB8C,
-.iLPntCcS2p5RQ6lINAgx{
+.iLPntCcS2p5RQ6lINAgx,
+.YOYIfKkABUDGQ5vQmg7y{
   position: static !important;
 }
 
