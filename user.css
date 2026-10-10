@@ -110,11 +110,12 @@
 ._ddPhxHdxmpT13IbjTmr,
 .FYt64RVcdU2DfYVJOH4W,
 .V7ICuEr1ZBtemPGKXeZb,
-.OxcpGT2yLq52q4F4aiCr{
+.OxcpGT2yLq52q4F4aiCr,
+.BFsAktnIfCii8eYPlO6g{
   display: none !important;
 }
 
-/* And this here is a whole list of playlist/homepage/album top gradients to be hidden as it interferes with the theme BADLY, this list probably has a few more elements that got removed in newer releases but I'm not removing for the sake of the theme looking proper on older releases. */
+/* And this here is a whole list of playlist/homepage/album top gradients to be hidden as it interferes with the theme BADLY, this list probably has a few more elements that got removed in newer releases but I'm not removing for the sake of the theme looking proper on older releases (backwards compatibility). */
 
 .NG0KBybUCTo8_SxXHF3N,
 .iLPntCcS2p5RQ6lINAgx,
@@ -138,7 +139,8 @@
 .mdY9Xw839F5sY1aa68Fi,
 .FabGls9zqg_MQCuzhXlB,
 .NeTYdM9FpYcvpF47Z8Y4,
-.rl0QlbVbrvgO0fB5Pkua{
+.rl0QlbVbrvgO0fB5Pkua,
+.Yp3YJJf7sEsbrbtr94Av{
   box-shadow: 0 0px 0px !important;
 }
 
@@ -197,7 +199,8 @@
 
 /* This here is a fix for icons inside menus looking a bit off in scaling under 100%. */
 
-.uCpbyRyKRYhEnUmXhDjT{
+.uCpbyRyKRYhEnUmXhDjT,
+.mWDxoEl19Pld4at5Bbho{
   --spice-highlight-elevated: transparent !important;
   background: transparent !important;
 }
