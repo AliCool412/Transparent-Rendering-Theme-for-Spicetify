@@ -4,11 +4,11 @@
   --spice-sidebar: none !important;
   --spice-main: none !important;
   --background-noise: #00000099 !important;
-  --spice-button-active: #FFFFFF !important;
-  --spice-button: #FFFFFF !important;
+  --spice-button-active: var(--current-color) !important;
+  --spice-button: var(--current-color) !important;
   --encore-overlay-box-shadow: 0 0px 0px !important;
-  --encore-icon-fill: #FFFFFF !important;
-  --text-bright-accent: #FFFFFF !important;
+  --encore-icon-fill: var(--current-color) !important;
+  --text-bright-accent: var(--current-color) !important;
   --carousel-start-chevron-gradient: none !important;
 }
 
@@ -209,7 +209,7 @@
 
 .g6z9DmqJ8tbdUBNlRC4e,
 .e-10860-legacy-button{
-  --text-bright-accent: #FFFFFF !important;
+  --text-bright-accent: var(--current-color) !important;
 }
 
 /* This one's for the "Change" link inside of the popups that say "added to [playlist name]" */
